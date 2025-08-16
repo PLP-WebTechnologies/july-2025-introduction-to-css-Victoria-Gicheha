@@ -1,0 +1,93 @@
+
+body {
+  background-color: rgb(175, 162, 181);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  outline: 1px dashed #6904a4; /* Outline for body */
+}
+
+/* Navigation */
+.navbar {
+  background-color: #594067;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px dashed rgb(11, 11, 10); /* Outline for navbar */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  outline: 1px dashed rgb(225, 225, 233);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  outline: 1px dashed rgb(12, 12, 12);
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #d6b5ed;
+  padding: 40px;
+  margin: 20px;
+  border: 2px solid #594067;
+  text-align: center;
+  outline: 1px dashed purple;
+}
+
+.btn {
+  background-color: #594067;
+  color: rgb(236, 231, 239);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: 1px dashed #594067;
+}
+
+.btn:hover {
+  background-color: #a892b1;
+}
+
+/* Container and Cards */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  outline: 1px dashed rgb(192, 102, 234);
+}
+
+.card {
+  background-color: #d6b5ed;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #594067;
+  width: 30%;
+  box-sizing: border-box; /* Demonstrates box model */
+  border-radius: 8px;
+  outline: 1px dashed rgb(155, 15, 241);
+}
+
+/* Footer */
+.footer {
+  background-color: #594067;
+  color: rgb(238, 232, 241);
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  outline: 1px dashed rgb(161, 10, 241);
+}
